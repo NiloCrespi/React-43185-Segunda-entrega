@@ -6,11 +6,13 @@ function App() {
     return (
         <body>
             <header>
-                <NavBar></NavBar>
+                <NavBar className="NavBar">
+                </NavBar>
             </header>
             <main>
                 <ItemListContainer 
-                    greeting= "Aca van cosas :)">
+                    greeting="Aca van cosas :)"
+                >
                 </ItemListContainer>
             </main>
         </body>

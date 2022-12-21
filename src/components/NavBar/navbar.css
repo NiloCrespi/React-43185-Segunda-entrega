@@ -1,0 +1,24 @@
+NavBar {
+    grid-area: menu;
+    justify-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-inline: 1rem;
+            
+a {
+    color: $colorLogo;
+}
+
+li {
+    padding-inline: 1.8rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

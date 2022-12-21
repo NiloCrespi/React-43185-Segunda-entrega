@@ -1,0 +1,24 @@
+.NavBar {
+    justify-items: center;
+    border: solid black 3px;
+    background-color: rgba(0, 148, 247, 0.904);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-inline: 1rem;
+    border: solid black 3px;
+    background-color: chartreuse;
+}
+
+li {
+    padding-inline: 1.8rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
