@@ -1,19 +1,25 @@
-NavBar {
-    grid-area: menu;
-    justify-items: center;
+nav {
+    display: grid;
+    grid-template-areas: "navbar cartContainer";
+    grid-template-columns: 1fr 1fr;
 }
 
 ul {
+    grid-area: navbar;
     list-style-type: none;
     display: flex;
+    align-items: center;
     padding-inline: 1rem;
-            
-a {
-    color: $colorLogo;
 }
 
+h1 {
+    font-size: 1.9rem;
+    padding-right: 5rem;
+}
+
+
 li {
-    padding-inline: 1.8rem;
+    padding-inline: 2rem;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif; 
 }
@@ -21,4 +27,19 @@ li {
 li:hover {
     font-weight: bold;
     text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(253, 228, 197);
+}
+
+.cartContainer {
+    grid-area: cartContainer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 4rem;
+    font-size: 1.5rem;
 }

@@ -1,3 +1,4 @@
+import "./NavBar.css"
 import CartWidget from "./CartWidget/CartWidget";
 
 function NavBar () {
@@ -16,7 +17,9 @@ function NavBar () {
                     <a href="/">accesorios</a>
                 </li>
             </ul>
-            <CartWidget></CartWidget>
+            <div className="cartContainer">
+                <CartWidget></CartWidget>
+            </div>    
         </nav>
     );
 }

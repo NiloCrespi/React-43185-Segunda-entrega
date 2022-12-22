@@ -6,14 +6,11 @@ function App() {
     return (
         <body>
             <header>
-                <NavBar className="NavBar">
-                </NavBar>
+                <NavBar></NavBar>
             </header>
+
             <main>
-                <ItemListContainer 
-                    greeting="Aca van cosas :)"
-                >
-                </ItemListContainer>
+                <ItemListContainer greeting="Aca van cosas :)"></ItemListContainer>
             </main>
         </body>
     );
